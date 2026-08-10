@@ -8,3 +8,11 @@ I started the Room Buzzer today! I actually made really good progress in the ver
 
 ![A picture of the completed CAD of the Room Buzzer](Images/RB1.png)
 ![An image of the CADed perfboard of the Room Buzzer](Images/RB2.png)
+
+# Devlog 2
+1h 28min 0sec Logged
+
+I started building the Room Buzzer today. I successfully soldered the whole perfboard together. It was the first time that I had done that, and it was really fun! It was pretty successful, too. I haven't tested it yet, but all the connections seem solid. Trouble came when I tried putting the perfboard into the case. Not only was the case poorly printed, the Micro USB port's hole was off as well. The cover was not much better, with the buzzer's hole being too low and the buttons' holes being too small. I'll have to fix all that now...
+
+![An image of the components side of the perfboard](Images/IMG_0313.JPG)
+![An image of the ESP-32 side of the perfboard](Images/IMG_0312.JPG)
