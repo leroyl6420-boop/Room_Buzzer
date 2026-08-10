@@ -1,0 +1,42 @@
+Add-Type -AssemblyName PresentationFramework
+
+$udp = [System.Net.Sockets.UdpClient]::new(4210)
+
+$remote = [System.Net.IPEndPoint]::new(
+    [System.Net.IPAddress]::Any,
+    0
+)
+
+Write-Host "Room Buzzer is running..."
+Write-Host "Waiting for notifications..."
+
+while ($true) {
+
+    $bytes = $udp.Receive([ref]$remote)
+
+    $message = [System.Text.Encoding]::UTF8.GetString($bytes)
+
+    Write-Host "Received: $message"
+
+
+    if ($message -eq "Casual Notification from Room Buzzer") {
+
+        [System.Media.SystemSounds]::Exclamation.Play()
+
+        [System.Windows.MessageBox]::Show(
+            "Casual Notification from Room Buzzer",
+            "Room Buzzer - Casual"
+        )
+    }
+
+
+    if ($message -eq "Urgent Notification from Room Buzzer") {
+
+        [System.Media.SystemSounds]::Hand.Play()
+
+        [System.Windows.MessageBox]::Show(
+            "Urgent Notification from Room Buzzer",
+            "Room Buzzer - Urgent"
+        )
+    }
+}
