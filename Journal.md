@@ -16,3 +16,13 @@ I started building the Room Buzzer today. I successfully soldered the whole perf
 
 ![An image of the components side of the perfboard](Images/IMG_0313.JPG)
 ![An image of the ESP-32 side of the perfboard](Images/IMG_0312.JPG)
+
+# Devlog 3
+1h 14min 9sec Logged
+
+I finished the transmitter module of the Room Buzzer! I printed a new case and cover, and they both fit properly this time. I slapped a 9V battery-to-USB converter on the back, and it worked well. I even took a few pictures! Still, I want to use a different power source, which I'll be CADing a case for soon. The firmware was easier than I expected, as the button pressing, LED flashing, and buzzer buzzing were all the same as I had done before. What was different was using my home WiFi and Windows Powershell on my laptop to get notifications from the transmitter. Still, I want to be able to run this system without my laptop, and even without WiFi, so I'll be making a receiver module next, and updating the firmware to use ESP-NOW, which will be able to run locally. 
+
+![An image of the set up Room Buzzer, V1.0](Images/IMG_0316.JPG)
+![An image of the Room Buzzer with the Urgent button being pressed](Images/IMG_0317.JPG)
+![An image of the Room Buzzer with the Casual button being pressed](Images/IMG_0318.JPG)
+
