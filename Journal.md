@@ -33,3 +33,10 @@ I CADed both the power module and the receiver module. I decided to avoid using 
 
 ![A picture of the receiver module](Images/RB3.png)
 ![A picture of the power module](Images/RB4.png)
+
+# Devlog 5
+1h 13min 0sec Logged
+
+I CADed a model of the Elegoo Power MB V2 for my Power Module assembly. I will do the same for the resistors and wires on the perfboard next. Though I wanted to make a receiver module, it seems that I will no longer be able to, as my 3D printer's extruder broke this morning. The replacement will not arrive in time for the Horizons program. I will be forced to content myself with laptop notifications. 
+
+![An image of the new Power Module assembly](Images/RB5.png)
