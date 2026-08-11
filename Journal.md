@@ -47,3 +47,10 @@ I CADed a model of the Elegoo Power MB V2 for my Power Module assembly. I will d
 I started CADing all the wire connections on the perfboard. It was sorta my first time using the Revolve tool on OnShape, which is kinda embarrassing to admit, and it took me a while to figure out, but the wires' turns turned out alright. I finished pretty much everything on the underside of the board, and now I'll model all the connections up on top of the board. I hope that this will help anyone wanting to make a Room Buzzer for themselves wire the perfboard correctly. 
 
 ![An image of the underside of the perfboard CAD, with the wires now modeled](Images/RB6.png)
+
+# Devlog 7
+1h 31min 0sec Logged
+
+I finished CADing the wires in the perfboard assembly! Again, since my 3D printer is broken, this is the last contribution I will be making to the Room Buzzer, at least for the time being. I'll wrap things up in my README so that you can make the Room Buzzer too! I hope you find the assembly useful in wiring (:
+
+![An image of the finished perfboard CAD](Images/RB7.png)
