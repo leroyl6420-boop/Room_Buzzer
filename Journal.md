@@ -26,3 +26,10 @@ I finished the transmitter module of the Room Buzzer! I printed a new case and c
 ![An image of the Room Buzzer with the Urgent button being pressed](Images/IMG_0317.JPG)
 ![An image of the Room Buzzer with the Casual button being pressed](Images/IMG_0318.JPG)
 
+# Devlog 4
+1h 27min 0sec Logged
+
+I CADed both the power module and the receiver module. I decided to avoid using a perfboard in my receiver module, as I only have one left and I want to be able to reuse this ESP-32 in the future. That meant that this receiver module has to be a lot larger than the transmitter module. Still, it should work alright. The power module was simple: an Elegoo Power MB V2 holster and a 9V battery holster in one. I'll set it up inside my room, run the wire through the crack in the door, and have the buzzer be outside my door. 
+
+![A picture of the receiver module](Images/RB3.png)
+![A picture of the power module](Images/RB4.png)
