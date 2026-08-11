@@ -40,3 +40,10 @@ I CADed both the power module and the receiver module. I decided to avoid using 
 I CADed a model of the Elegoo Power MB V2 for my Power Module assembly. I will do the same for the resistors and wires on the perfboard next. Though I wanted to make a receiver module, it seems that I will no longer be able to, as my 3D printer's extruder broke this morning. The replacement will not arrive in time for the Horizons program. I will be forced to content myself with laptop notifications. 
 
 ![An image of the new Power Module assembly](Images/RB5.png)
+
+# Devlog 6
+1h 30min 0sec Logged
+
+I started CADing all the wire connections on the perfboard. It was sorta my first time using the Revolve tool on OnShape, which is kinda embarrassing to admit, and it took me a while to figure out, but the wires' turns turned out alright. I finished pretty much everything on the underside of the board, and now I'll model all the connections up on top of the board. I hope that this will help anyone wanting to make a Room Buzzer for themselves wire the perfboard correctly. 
+
+![An image of the underside of the perfboard CAD, with the wires now modeled](Images/RB6.png)
