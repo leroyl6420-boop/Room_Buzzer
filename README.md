@@ -57,4 +57,6 @@ Red Button (anypin): D32 (I14)
 Blue Button (anypin): D33 (J14)
 Passive Buzzer VCC: D27 (M14)
 
-Of course, the unused legs of the buttons and the remaining pins shall go to either one of the ESP-32's GNDs. 
+Of course, the unused legs of the buttons and the remaining pins shall go to either one of the ESP-32's GNDs. It should end up looking like this (on side 2):
+
+![An image of the Room Buzzer V1.0's perfboard](Images/IMG_0313.JPG)
