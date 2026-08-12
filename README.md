@@ -60,3 +60,25 @@ Passive Buzzer VCC: D27 (M14)
 Of course, the unused legs of the buttons and the remaining pins shall go to either one of the ESP-32's GNDs. It should end up looking like this (on side 2):
 
 ![An image of the Room Buzzer V1.0's perfboard](Images/IMG_0313.JPG)
+
+# Instructions on Use
+
+To use the Room Buzzer after assembly, first use Arduino IDE to flash the Main.ino file onto your ESP-32. Then, assuming you're on windows (boo-hoo to you if you're not), open up Windows Powershell and copy/paste the Windows_PowerShell_CodeV1.0.txt file's contents into the terminal. Make sure to press "Enter". After the program prints "Room Buzzer is running..." and "Waiting for notifications...", you may have at it with the transmitter module. The alerts will be pop-ups on your laptop. Personally, I put my power module in my room, ran the Micro-USB cable through the crease of the door, and have my Room Buzzer sitting outside. It's fun!
+
+# Image Gallery
+
+The Room Buzzer V1.0:
+![An image of the completed Room Buzzer V1.0}(Images/IMG_0320.JPG)
+
+The casual alert button being pressed:
+![An image of the Room Buzzer V1.0 as the casual button is being pressed](Images/IMG_0321.JPG)
+
+The urgent alert button being pressed:
+![An image of the Room Buzzer V1.0 as the urgent button is being pressed](Images/IMG_0322.JPG)
+
+The power module:
+![An image of the Room Buzzer V1.0's power module](Images/IMG_0323.JPG)
+
+# AI Use
+
+AI was used to code the Windows Powershell code. I didn't want to learn how to code in Windows Powershell just for this, so I used AI lol (:
